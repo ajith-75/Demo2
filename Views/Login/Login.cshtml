@@ -12,24 +12,28 @@
         body {
             margin: 0;
             padding: 0;
-            background: linear-gradient(135deg, #fff3f3, #fffef0);
+            height: 100vh;
+            background: url('@Url.Content("~/images/kovil.jpg")') no-repeat center center fixed;
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
             font-family: 'Segoe UI', sans-serif;
             display: flex;
             justify-content: center;
             align-items: center;
-            height: 100vh;
         }
 
         .login-container {
-            background-color: white;
+            background-color: rgba(255, 255, 255, 0.85); /* translucent white */
             padding: 40px;
             border-radius: 12px;
-            box-shadow: 0 0 15px rgba(0, 0, 0, 0.15);
+            box-shadow: 0 8px 30px rgba(0, 0, 0, 0.25);
             text-align: center;
+            backdrop-filter: blur(4px); /* optional: adds blur behind the box */
         }
 
             .login-container h2 {
-                color: #800000; /* Maroon/Wedding Cache Color */
+                color: #800000;
                 margin-bottom: 30px;
                 font-size: 2em;
             }
@@ -41,16 +45,16 @@
             border-radius: 6px;
             margin-bottom: 20px;
             font-size: 16px;
-            color: #800000; /* Input text color */
+            color: #800000;
         }
 
             input[type="text"]::placeholder {
-                color: #a52a2a; /* Cache/maroon placeholder */
+                color: #a52a2a;
             }
 
         button {
             padding: 10px 20px;
-            background-color: #28a745; /* Green button */
+            background-color: #28a745;
             color: white;
             border: none;
             border-radius: 6px;
@@ -59,7 +63,7 @@
         }
 
             button:hover {
-                background-color: #218838; /* Darker green */
+                background-color: #218838;
             }
 
         .error {
@@ -74,6 +78,7 @@
             font-weight: bold;
         }
     </style>
+
 </head>
 <body>
     <div class="login-container">
