@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\AJITH\\repo\\Demo2\\Demo.csproj": {}
+    "D:\\Ajith-repo\\Demo.csproj": {}
   },
   "projects": {
-    "D:\\AJITH\\repo\\Demo2\\Demo.csproj": {
+    "D:\\Ajith-repo\\Demo.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\AJITH\\repo\\Demo2\\Demo.csproj",
+        "projectUniqueName": "D:\\Ajith-repo\\Demo.csproj",
         "projectName": "Demo",
-        "projectPath": "D:\\AJITH\\repo\\Demo2\\Demo.csproj",
+        "projectPath": "D:\\Ajith-repo\\Demo.csproj",
         "packagesPath": "C:\\Users\\DELL\\.nuget\\packages\\",
-        "outputPath": "D:\\AJITH\\repo\\Demo2\\obj\\",
+        "outputPath": "D:\\Ajith-repo\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -68,7 +68,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.201/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.204/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
