@@ -1,5 +1,4 @@
 wwwroot\css\site.css
-wwwroot\favicon.ico
 wwwroot\Images\Kovil.jpg
 wwwroot\js\site.js
 wwwroot\lib\bootstrap\dist\css\bootstrap.css
